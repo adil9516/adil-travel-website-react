@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+.bg-screen {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  overflow: hidden;
+  z-index: -100;
+}
+#myvideo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bar {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  color: white;
+}
+.btn1 a{
+  color: white;
+  text-decoration: none;
+}
+.btn1 a:hover {
+  color:black
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  padding: 10px 20px;
+  margin-top: 17px;
+  list-style: none;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+.nav-items li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: blanchedalmond;
+}
+.nav-items li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.itr {
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itl {
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.dri {
+  height: 100%;
+  width: 50%;
+}
+.rpara {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  padding: 8% 10%;
+}
+.rimage {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.rh1 {
+  color: black;
+  font-size: 30px;
+}
+.rpt {
+  color: black;
+  font-size: 20px;
+  padding-top: 50px;
+}
+.dli {
+  height: 100%;
+  width: 50%;
+}
+.limage {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.lpara {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  padding: 10% 10%;
+}
+.lh1 {
+  color: black;
+  font-size: 30px;
+}
+.lpt {
+  color: black;
+  font-size: 20px;
+  padding-top: 50px;
+}
+.bodyser {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.rbutton {
+  height: 50px;
+  width: 150px;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+}
+.lbutton {
+  height: 50px;
+  width: 150px;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.rbutton:hover {
+  background-color: white;
+  color: black;
+}
+.lbutton:hover {
+  background-color: white;
+  color: black;
+}
+.cont {
+  height: 300px;
+  width: 500px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  margin-left: 33%;
+  margin-top: 10%;
+}
+.text {
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+}
+.text h1,
+h3,
+button {
+  margin-left: 10%;
+}
+.text h3 {
+  margin-top: 10%;
+}
+.text button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+}
+.text button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.f3 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.f3 img {
+  border-radius: 10px;
+}
+.l3 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.l3 img {
+  border-radius: 10px;
+}
+.img-cont {
+  height: 200px;
+  width: 200px;
+  margin: 25px 45px;
+}
+
+.ctext {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ctext h3 {
+  font-weight: bold;
+}
+.pbtn {
+  padding: 10px 30px;
+  position: relative;
+  right: 20px;
+  bottom: 10px;
+  background-color: black;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.pbtn:hover {
+  background-color: white;
+  color: black;
+}
+.pbody {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.f {
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  
+}
+.fbody ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.fbody ul li{
+  padding: 20px;
+}
+.ftext{
+  text-align: center;
+}
+
